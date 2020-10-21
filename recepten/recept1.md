@@ -1,6 +1,5 @@
 ---
-layout: layout.njk
-title: Dit is mijn eerste post
+title: Dit is mijn eerste recept
 date: 2020-10-01
 intro: Dit is een korte intro
 ---
