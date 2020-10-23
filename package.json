@@ -16,5 +16,8 @@
   "homepage": "https://github.com/JorgenPerplex/MyBlog#readme",
   "dependencies": {
     "@11ty/eleventy": "github:11ty/eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.1.6"
   }
 }

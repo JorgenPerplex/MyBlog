@@ -1,9 +1,14 @@
 ---
-title: Dit is mijn laatste recept
-date: 2020-10-10
-intro: Dit is een korte intro 3
+naam: Kip kerrie
+intro: Dit is een korte intro
+kooktijd: 30 min
+koolhydraten: 40
+ingredienten: [kip,kokosmelk,bloemkool,champignons,bosui]
+
 ---
 
-# Post 3
-
-tekst
+<h1>{{ naam }}</h1>
+{{ intro }}
+{{ kooktijd }}
+{{ koolhydraten }}
+{{ ingredienten }}

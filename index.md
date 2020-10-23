@@ -1,19 +1,15 @@
 ---
 layout: layout.njk
 pageTitle: Welcome to my blog
-pagination:
-  data: collections.recept
-  size: 2
-  alias: recepten
 
 ---
 
-# My Homepage
+<h1>{{ pageTitle }}</h1>
 
-Met een beetje tekst **bold** of _italic_ of gewone tekst? Toch
+Met een beetje tekst **bold** of _italic_ of gewone tekst?
 
 {%- for recept in collections.recepten  -%}
-    <h2><a href="/_site{{ recept.url }}">{{ recept.url }}</a></h2>
+    <h2><a href="/_site{{ recept.url }}">{{ recept.data.title }}</a></h2>
     <p>{{ recept.data.intro }}</p>
     <p>{{ recept.data.ingredienten }}</p>
 {%- endfor -%}
