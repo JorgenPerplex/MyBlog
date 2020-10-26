@@ -3,6 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>My Blog</title>
+        <!-- capture the CSS content as a Nunjucks variable -->
+        {% set css %}
+        {% include "style.css" %}
+        {% endset %}
+        <!-- feed it through our cssmin filter to minify -->
+        <style>
+        {{ css | cssmin | safe }}
+        </style>
     </head>
     <body>
         <h1>{{ title }}</h1>
