@@ -4,6 +4,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
       return {
-        pathPrefix: "/_test/"
+        pathPrefix: "/_site/"
     };
 };
