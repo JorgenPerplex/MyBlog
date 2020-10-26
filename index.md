@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-pageTitle: Welcome to my blog
+pageTitle: Welkom!
 
 ---
 
